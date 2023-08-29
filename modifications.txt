@@ -1,0 +1,4 @@
+Debug console logs for gamehelper active
+build mode modified
+enableDebugLog enabled
+currently set up to connect to WSL Ethernet Network (using that ipv4) 192.168.208.1

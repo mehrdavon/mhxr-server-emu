@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/defaultlayout_LinearLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0">
+        <EditText android:textSize="24.0sp" android:textColor="#ff000000" android:id="@id/defaultlayout_editText" android:background="@drawable/shape" android:layout_width="0.0px" android:layout_height="fill_parent" android:minHeight="56.0dip" android:singleLine="true" android:layout_weight="6.5" />
+        <Button android:textColor="#ff000000" android:id="@id/defaultlayout_buttonOK" android:background="@drawable/shape" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.30000007dip" android:text="OK" android:layout_weight="2.0" />
+        <Button android:textColor="#ff000000" android:id="@id/defaultlayout_buttonCancel" android:background="@drawable/shape" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.30000007dip" android:text="Cancel" android:layout_weight="1.5" />
+    </LinearLayout>
+</LinearLayout>

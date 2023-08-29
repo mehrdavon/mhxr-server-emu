@@ -1,0 +1,10 @@
+{
+    "res": "192.168.208.1",
+    "api": "192.168.208.1",
+    "web": "192.168.208.1",
+    "maintenance_bucket": "http://192.168.208.1/",
+    "maintenance_env": "maintenance_env",
+    "new_maintenance_bucket": "http://192.168.208.1/",
+    "new_maintenance_env": "new_maintenance_env"
+
+}

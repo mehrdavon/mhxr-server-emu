@@ -1,0 +1,34 @@
+!!brut.androlib.apk.ApkInfo
+apkFileName: MHXR.3.0.6.apk
+doNotCompress:
+- resources.arsc
+- png
+- res/raw/dummy.der
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  build-data.properties: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  javax/inject/Inject.gwt.xml: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  jsr330_inject/Jsr330_inject.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+  third_party/java_src/jsr330_inject/Jsr330_inject.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: '112'
+  versionName: 09.03.06

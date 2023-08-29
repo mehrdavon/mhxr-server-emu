@@ -1,0 +1,16 @@
+Monster_Hunter_Explore.ms: 
+	Model import script for 3ds Max by zaramot
+
+tex2pvr.py / GIDecode.py: 
+	Texture script by wmltogether
+	Open/convert .pvr textures with PVRTexTool 
+
+getUpdateFiles.py: 
+	Script by MHVuze
+	Run to download the latest content files from MHXR servers.
+	Note that the AppStore version of the game ships with some stock files, just grab the latest ipa for those if you want.
+
+MHXRTool:
+	Unpacking/decryption tool by MHVuze
+	Supports unpacking .fpk, decrypting .arc(c) and unpacking .arc, just drag and drop the file or folder on it.
+	Some file type extension codes for Explore are missing but most should be covered.

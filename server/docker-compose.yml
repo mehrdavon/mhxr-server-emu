@@ -1,0 +1,16 @@
+version: "3.9"
+
+
+services:
+ 
+  php-apache-environment:
+        container_name: php-apache
+        build: ./
+        volumes:
+          - ./mycert.crt:/etc/ssl/certs/mycert.crt
+          - ./mycert.key:/etc/ssl/private/mycert.key
+          - ./www:/var/www/html
+        ports:
+          - 80:80
+          - 443:443
+

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Launch me a riddle</title>
+</head>
+
+<body style="background-color:powderblue;">
+   
+    <button onclick="myFunction()">set details</button>
+    
+    <h2>Refresh:</h2>
+    <a href="javascript:location.reload(true)">Refresh this page</a>
+    <h2>Test:</h2>
+    <div id="getResponse" width="20px"></div>
+
+    
+    <script>
+        const getCircularReplacer = () => {
+        const seen = new WeakSet();
+        return (key, value) => {
+            if (typeof value === "object" && value !== null) {
+                if (seen.has(value)) {
+                    return;
+                }
+                seen.add(value);
+            }
+            return value;
+        };
+        };
+        function myFunction() {
+           // document.getElementById("getResponse").innerHTML = JSON.stringify(window, getCircularReplacer());
+            if (typeof wv.callBrowser !== "undefined") { 
+            // safe to use the function
+            //document.getElementById("getResponse").innerHTML = "AVAILABLE!"
+            window.wv.callBrowser("mhxr://menu/nyankentai")
+            }   
+           
+        }
+       
+    </script>
+
+</body>
+
+</html>
